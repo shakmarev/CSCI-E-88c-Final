@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="FinalProject">
+      <option name="postfixOps" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:C:\Users\Sergey\IdeaProjects\FinalProject\target\scala-2.13\meta" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\Sergey\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-scalac_2.13.6\4.4.20\semanticdb-scalac_2.13.6-4.4.20.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="2022SpringScalaIntro">
+      <option name="postfixOps" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:C:\Users\dima\IdeaProjects\FinalProject\target\scala-2.13\meta" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\dima\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\semanticdb-scalac_2.13.6\4.4.20\semanticdb-scalac_2.13.6-4.4.20.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
